@@ -1,9 +1,9 @@
 # PhotoManager
 Photo Upload Manager based on intervention.io.
 
-1. Takes image and parameters,
+1. Takes image and parameters(presets),
 2. Making folder, creating slug;
-3. Make all needed transformations.(resizing,cropping etc)
+3. Make all needed transformations(resizing,cropping etc) from 'RULES';
 4. Saving multiple images if needed
 5. Return a array of data, ready to save in DB.
 
